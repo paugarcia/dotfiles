@@ -13,9 +13,6 @@ ln -s -i $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 # Vim
 ln -s -i $HOME/.dotfiles/.vimrc $HOME/.vimrc
 
-# CLOSE YOUR EYES :)
-ln -s -i $HOME/Dropbox/Private/filezilla.xml $HOME/.filezilla/sitemanager.xml
-
 # Fonts
 rm -rf $HOME/.fonts
 ln -s $HOME/.dotfiles/.fonts $HOME
@@ -27,8 +24,3 @@ ln -s $HOME/.dotfiles/sublime-text-3/Packages/User $HOME/.config/sublime-text-3/
 # Intellij
 rm -rf $HOME/.IntelliJIdea14/config
 ln -s $HOME/.dotfiles/.IntelliJIdea14/config $HOME/.IntelliJIdea14/
-
-# iMacros
-rm -rf $HOME/iMacros/Macros
-ln -s $HOME/.dotfiles/iMacros/Macros $HOME/iMacros
-
